@@ -27,13 +27,13 @@ main {
 }
 
 img {
-  max-width: 80%;
+  max-width: 100%;
 }
 
 .card {
   border: 2px solid black;
   border-radius: 2em;
-  padding: 2em;
+  padding: 1em;
   background-color: #fff;
   box-shadow: black 7px 8px 0px;
 }
@@ -54,7 +54,7 @@ p {
 }
 
 .card__header {
-  font-size: 1.3em;
+  font-size: 1.1em;
   font-weight: bold;
   cursor: pointer;
 }
