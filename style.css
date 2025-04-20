@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Figtree-Variable";
+  src: url("/assets/fonts/Figtree-VariableFont_wght.ttf");
+}
+
+:root {
+  --bg__yellow: hsl(47, 88%, 63%);
+}
+
+body {
+  background-color: var(--bg__yellow);
+  font-family: "Figtree-Variable";
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+}
+
+.card {
+  border: 2px solid black;
+  border-radius: 2em;
+  padding: 2em;
+  background-color: #fff;
+  box-shadow: black 7px 8px 0px;
+}
+
+.card > * {
+  margin-top: 1em;
+}
+
+p {
+  max-width: 21em;
+}
+
+.learning {
+  background-color: var(--bg__yellow);
+  width: fit-content;
+  padding: 0.5em 1em;
+  font-weight: bold;
+}
+
+.card__header {
+  font-size: 1.3em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.card__header:hover {
+  color: var(--bg__yellow);
+}
+
+.card__body {
+  line-height: 1.8;
+  color: rgba(0, 0, 0, 0.619);
+  letter-spacing: 0.3px;
+}
+
+.author__div {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.author__div p {
+  font-weight: bold;
+}
