@@ -15,7 +15,7 @@
 
 body {
   background-color: var(--bg__yellow);
-  font-family: "Figtree-Variable";
+  font-family: "Figtree-Variable", sans-serif;
   font-size: 16px;
 }
 
